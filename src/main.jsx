@@ -9,7 +9,7 @@ import RegisterPage from './assets/pages/register.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <h1>Hello, World</h1>,
+    element: <LoginPage></LoginPage>,
     errorElement: <ErrorPage/>,
   },
   {
